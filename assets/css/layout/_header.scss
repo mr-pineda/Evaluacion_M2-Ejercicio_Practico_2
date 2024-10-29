@@ -9,12 +9,13 @@
   display: flex;
   justify-content: space-between;
   height: 60px;
+  position: sticky;
+  top: 0;
 }
 
 .logo_container {
   height: 100%;
   display: flex;
-  //   background-color: blue;
   align-items: center;
   justify-content: center;
   padding: 5px;

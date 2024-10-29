@@ -337,6 +337,14 @@ a {
   text-decoration: none;
 }
 
+li {
+  list-style-type: none;
+}
+
+section {
+  padding: 0 10rem;
+}
+
 /**
  * Clear inner floats
  */
@@ -402,6 +410,8 @@ body {
   display: flex;
   justify-content: space-between;
   height: 60px;
+  position: sticky;
+  top: 0;
 }
 
 .logo_container {
@@ -449,4 +459,82 @@ body {
   color: white;
   background-color: orange;
   font-size: xx-large;
+}
+
+.showcase__section {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #ccccff;
+}
+
+.showcase__title {
+  font-size: 7rem;
+}
+
+.showcase__subtitle {
+  font-size: 2rem;
+}
+
+.services__section {
+  padding: 5rem 10rem;
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+
+.service__title {
+  margin: 0;
+}
+
+.service__paragraph,
+.service__list {
+  margin: 0;
+  padding-left: 3rem;
+}
+
+.services__section {
+  padding: 5rem 10rem;
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+
+.service__title {
+  margin: 0;
+}
+
+.service__paragraph,
+.service__list {
+  margin: 0;
+  padding-left: 3rem;
+}
+
+.testimonials__title {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+.testimonial {
+  margin-bottom: 2rem;
+}
+
+.testim_pacient {
+  margin: 0;
+  padding: 0;
+}
+
+.testim_paragraph {
+  margin: 0;
+  padding: 0;
 }

@@ -1,3 +1,74 @@
-// -----------------------------------------------------------------------------
-// This file contains styles that are specific to the home page.
-// -----------------------------------------------------------------------------
+// Showcase
+.showcase__section {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #ccccff;
+}
+.showcase__title {
+  font-size: 7rem;
+}
+.showcase__subtitle {
+  font-size: 2rem;
+}
+
+// Services
+.services__section {
+  padding: 5rem 10rem;
+}
+.service {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+.service__title {
+  //   background-color: red;
+  margin: 0;
+}
+.service__paragraph,
+.service__list {
+  //   background-color: blue;
+  margin: 0;
+  padding-left: 3rem;
+}
+
+// Services
+.services__section {
+  padding: 5rem 10rem;
+}
+.service {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+.service__title {
+  //   background-color: red;
+  margin: 0;
+}
+.service__paragraph,
+.service__list {
+  //   background-color: blue;
+  margin: 0;
+  padding-left: 3rem;
+}
+
+// Testitmonials
+.testimonials__title {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+.testimonial {
+  margin-bottom: 2rem;
+}
+.testim_pacient {
+  margin: 0;
+  padding: 0;
+}
+.testim_paragraph {
+  margin: 0;
+  padding: 0;
+}
