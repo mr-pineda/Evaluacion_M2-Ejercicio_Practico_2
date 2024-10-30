@@ -1,3 +1,42 @@
 // -----------------------------------------------------------------------------
 // This file contains styles that are specific to the home page.
 // -----------------------------------------------------------------------------
+@use '../abstracts';
+
+.about__showcase {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #ccccff;
+}
+.about__title {
+  font-size: 7rem;
+}
+.about__subtitle {
+  font-size: 2rem;
+}
+
+.team__title {
+  font-size: 4rem;
+  text-align: center;
+}
+.doctor {
+  display: flex;
+  margin-bottom: 3rem;
+  background-color: abstracts.$color-primary-100;
+  padding: 2rem 4rem;
+  border-radius: 10px;
+}
+
+.doctor__info {
+  flex: 2;
+  //   margin-left: 3rem;
+}
+
+.doctor__img {
+  flex: 1;
+  margin-right: 5rem;
+  border-radius: 50%;
+}
