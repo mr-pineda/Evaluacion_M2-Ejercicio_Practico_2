@@ -584,6 +584,58 @@ body {
   font-style: italic;
 }
 
+@media (max-width: 480px) {
+  .services__section {
+    padding: 5rem 1rem;
+  }
+  .showcase__section {
+    height: 80vh;
+    padding: 0;
+  }
+  .showcase__title {
+    font-size: 3rem;
+    text-align: center;
+  }
+  .showcase__subtitle {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .service {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+  }
+  .service__title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  .service__paragraph,
+  .service__list {
+    text-align: center;
+    padding: 0;
+  }
+  .testimonials {
+    margin: 0;
+    padding: 0 1rem;
+  }
+  .testimonials__title {
+    font-size: 2rem;
+  }
+  .testimonial {
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .testim_pacient {
+    font-size: 1.2rem;
+    text-align: end;
+  }
+  .testim_paragraph {
+    font-size: 1.2rem;
+    text-align: justify;
+  }
+}
 .about__showcase {
   height: 60vh;
   display: flex;
