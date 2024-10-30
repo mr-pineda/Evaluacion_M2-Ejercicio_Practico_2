@@ -497,6 +497,25 @@ body {
   background-color: #0d2747;
 }
 
+@media (max-width: 480px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+  .logo_container {
+    justify-content: center;
+  }
+  .logo_container .logo_img {
+    height: 2.5rem;
+  }
+  .logo_container .logo_name {
+    font-size: 1.5rem;
+  }
+  .navbar {
+    height: 2.5rem;
+  }
+}
 .header_btn {
   margin: 3px auto;
   border-radius: 10px;

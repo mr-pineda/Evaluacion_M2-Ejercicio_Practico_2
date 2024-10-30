@@ -40,7 +40,6 @@
   padding: 0;
 }
 .header_btn {
-  // height: 100%;
   margin: 0;
   padding: 0 2rem;
   border: none;
@@ -67,4 +66,26 @@
 
 .--current {
   background-color: abstracts.$color-primary-600;
+}
+
+@media (max-width: map-get(abstracts.$breakpoints, 'small')) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+
+  .logo_container {
+    justify-content: center;
+    .logo_img {
+      height: 2.5rem;
+    }
+    .logo_name {
+      font-size: 1.5rem;
+    }
+  }
+
+  .navbar {
+    height: 2.5rem;
+  }
 }
