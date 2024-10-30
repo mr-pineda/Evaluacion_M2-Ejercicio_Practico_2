@@ -17,8 +17,9 @@
   height: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   padding: 5px;
+  flex: 1;
   .logo_img {
     height: 100%;
     margin-right: 3px;
@@ -32,7 +33,22 @@
     align-items: center;
   }
 }
-
+.button__container {
+  flex: 1;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.header_btn {
+  // height: 100%;
+  margin: 0;
+  padding: 0 2rem;
+  border: none;
+  cursor: pointer;
+}
+.header_navbar {
+  flex: 1;
+}
 .navbar {
   display: flex;
   margin: 0;
