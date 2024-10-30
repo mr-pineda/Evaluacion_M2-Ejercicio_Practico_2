@@ -1,3 +1,5 @@
+@use '../abstracts';
+
 // Showcase
 .showcase__section {
   height: 60vh;
@@ -5,33 +7,13 @@
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  background-color: #ccccff;
+  background-color: abstracts.$color-primary-200;
 }
 .showcase__title {
   font-size: 7rem;
 }
 .showcase__subtitle {
   font-size: 2rem;
-}
-
-// Services
-.services__section {
-  padding: 5rem 10rem;
-}
-.service {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 2rem;
-}
-.service__title {
-  //   background-color: red;
-  margin: 0;
-}
-.service__paragraph,
-.service__list {
-  //   background-color: blue;
-  margin: 0;
-  padding-left: 3rem;
 }
 
 // Services
@@ -67,8 +49,10 @@
 .testim_pacient {
   margin: 0;
   padding: 0;
+  font-style: italic;
 }
 .testim_paragraph {
   margin: 0;
   padding: 0;
+  font-style: italic;
 }

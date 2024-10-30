@@ -422,7 +422,7 @@ body {
 .footer__item__title {
   margin: 0;
   padding: 0;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .footer__item__details {
@@ -431,7 +431,7 @@ body {
 }
 
 .header {
-  background-color: #374ebf;
+  background-color: #1f5aa3;
   display: flex;
   justify-content: space-between;
   height: 60px;
@@ -494,7 +494,7 @@ body {
 }
 
 .--current {
-  background-color: #17204e;
+  background-color: #0d2747;
 }
 
 .header_btn {
@@ -511,7 +511,7 @@ body {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  background-color: #ccccff;
+  background-color: #a3c6f0;
 }
 
 .showcase__title {
@@ -520,26 +520,6 @@ body {
 
 .showcase__subtitle {
   font-size: 2rem;
-}
-
-.services__section {
-  padding: 5rem 10rem;
-}
-
-.service {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 2rem;
-}
-
-.service__title {
-  margin: 0;
-}
-
-.service__paragraph,
-.service__list {
-  margin: 0;
-  padding-left: 3rem;
 }
 
 .services__section {
@@ -576,11 +556,13 @@ body {
 .testim_pacient {
   margin: 0;
   padding: 0;
+  font-style: italic;
 }
 
 .testim_paragraph {
   margin: 0;
   padding: 0;
+  font-style: italic;
 }
 
 .about__showcase {
@@ -589,7 +571,7 @@ body {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  background-color: #ccccff;
+  background-color: #a3c6f0;
 }
 
 .about__title {
@@ -608,9 +590,9 @@ body {
 .doctor {
   display: flex;
   margin-bottom: 3rem;
-  background-color: #4560ec;
+  background-color: #c5d8f0;
   padding: 2rem 4rem;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 .doctor__info {

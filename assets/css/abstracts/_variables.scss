@@ -1,7 +1,3 @@
-// -----------------------------------------------------------------------------
-// This file contains all application-wide Sass variables.
-// -----------------------------------------------------------------------------
-
 /// Regular font family
 /// @type List
 $text-font-stack: 'Open Sans', 'Helvetica Neue Light', 'Helvetica Neue',
@@ -32,15 +28,12 @@ $mid-grey: rgb(153, 153, 153) !default;
 /// @type Color
 $dark-grey: rgb(68, 68, 68) !default;
 
-$color-primary-100: #4560ec;
-$color-primary-200: #3e57d6;
-$color-primary-300: #4662f5;
-$color-primary-400: #374ebf;
-$color-primary-500: #3145a8;
-$color-primary-600: #2a3b92;
-$color-primary-700: #24327b;
-$color-primary-800: #1d2964;
-$color-primary-900: #17204e;
+$color-primary-100: #c5d8f0;
+$color-primary-200: #a3c6f0;
+$color-primary-300: #256dc5;
+$color-primary-400: #1f5aa3;
+$color-primary-500: #194881;
+$color-primary-600: #0d2747;
 
 /// Container's maximum width
 /// @type Length
