@@ -692,14 +692,14 @@ body {
   border-radius: 50%;
 }
 
-.form__title {
-  font-size: 3rem;
-  text-align: center;
-}
-
 .form__container {
   display: flex;
   flex-direction: column;
+}
+
+.form__title {
+  font-size: 3rem;
+  text-align: center;
 }
 
 .form__item {
@@ -715,4 +715,16 @@ body {
 
 .form__entry {
   flex: 4;
+}
+
+@media (max-width: 480px) {
+  .form__container {
+    padding: 2rem 1rem;
+  }
+  .form__item {
+    flex-direction: column;
+  }
+  .form__label {
+    text-align: start;
+  }
 }
