@@ -1,6 +1,4 @@
-// -----------------------------------------------------------------------------
-// This file contains all styles related to the footer of the site/application.
-// -----------------------------------------------------------------------------
+@use '../abstracts';
 
 .footer {
   display: flex;
@@ -25,4 +23,21 @@
 .footer__item__details {
   margin: 0.5rem 0 0 1rem;
   padding: 0;
+}
+
+@media (max-width: map-get(abstracts.$breakpoints, 'small')) {
+  .footer {
+    flex-direction: column;
+    padding: 1rem 1rem;
+  }
+  .footer__item {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  .footer__item__title {
+    font-size: 1.2rem;
+  }
+  .footer__item__details {
+    margin: 0 0 0 1rem;
+  }
 }
