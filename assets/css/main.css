@@ -455,7 +455,7 @@ body {
   top: 0;
 }
 
-.logo_container {
+.header__logo {
   height: 100%;
   display: flex;
   align-items: center;
@@ -463,11 +463,11 @@ body {
   padding: 5px;
   flex: 1;
 }
-.logo_container .logo_img {
+.header__logo .header__logo__img {
   height: 100%;
   margin-right: 3px;
 }
-.logo_container .logo_name {
+.header__logo .header__logo__text {
   color: white;
   height: 100%;
   margin: 0;
@@ -476,31 +476,28 @@ body {
   align-items: center;
 }
 
-.button__container {
+.header__btn {
   flex: 1;
   display: flex;
   margin: 0;
   padding: 0;
 }
 
-.header_btn {
+.header__btn__item {
   margin: 0;
   padding: 0 2rem;
   border: none;
   cursor: pointer;
 }
 
-.header_navbar {
+.header__nav {
   flex: 1;
-}
-
-.navbar {
   display: flex;
   margin: 0;
   padding: 0;
-  height: 100%;
 }
-.navbar .nav_item {
+
+.header__nav__link {
   flex: 1;
   text-align: center;
   color: white;
@@ -519,20 +516,17 @@ body {
     flex-direction: column;
     height: auto;
   }
-  .logo_container {
+  .header__logo {
     justify-content: center;
   }
-  .logo_container .logo_img {
+  .header__logo .header__logo__img {
     height: 2.5rem;
   }
-  .logo_container .logo_name {
+  .header__logo .header__logo__text {
     font-size: 1.5rem;
   }
-  .navbar {
-    height: 2.5rem;
-  }
 }
-.header_btn {
+.header__btn__item {
   margin: 3px auto;
   border-radius: 10px;
   color: white;
