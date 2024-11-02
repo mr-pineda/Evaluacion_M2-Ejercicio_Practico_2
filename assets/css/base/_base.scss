@@ -32,11 +32,6 @@ html {
 a {
   color: abstracts.$text-color;
   text-decoration: none;
-
-  // @include abstracts.on-event {
-  //   color: abstracts.$text-color;
-  //   text-decoration: underline;
-  // }
 }
 
 li {

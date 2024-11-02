@@ -1,4 +1,4 @@
-@use '../abstracts';
+@import '../abstracts';
 
 .footer {
   display: flex;
@@ -25,7 +25,7 @@
   padding: 0;
 }
 
-@media (max-width: map-get(abstracts.$breakpoints, 'small')) {
+@include breakpoint('small') {
   .footer {
     flex-direction: column;
     padding: 1rem 1rem;

@@ -1,20 +1,5 @@
 @use '../abstracts';
-
-// Showcase
-.showcase__section {
-  height: 60vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-  background-color: abstracts.$color-primary-200;
-}
-.showcase__title {
-  font-size: 7rem;
-}
-.showcase__subtitle {
-  font-size: 2rem;
-}
+@import '../abstracts/';
 
 // Services
 .services__section {
@@ -26,12 +11,10 @@
   margin-bottom: 2rem;
 }
 .service__title {
-  //   background-color: red;
   margin: 0;
 }
 .service__paragraph,
 .service__list {
-  //   background-color: blue;
   margin: 0;
   padding-left: 3rem;
 }
@@ -57,21 +40,7 @@
   font-style: italic;
 }
 
-@media (max-width: map-get(abstracts.$breakpoints, 'small')) {
-  // Showcase
-  .showcase__section {
-    height: 80vh;
-    padding: 0;
-  }
-  .showcase__title {
-    font-size: 3rem;
-    text-align: center;
-  }
-  .showcase__subtitle {
-    font-size: 1.5rem;
-    text-align: center;
-  }
-
+@include breakpoint('small') {
   .services__section {
     padding: 5rem 1rem;
   }

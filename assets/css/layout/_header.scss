@@ -1,8 +1,5 @@
-// -----------------------------------------------------------------------------
-// This file contains all styles related to the header of the site/application.
-// -----------------------------------------------------------------------------
-
 @use '../abstracts';
+@import '../abstracts';
 
 .header {
   background-color: abstracts.$color-primary-400;
@@ -64,7 +61,7 @@
   background-color: abstracts.$color-primary-600;
 }
 
-@media (max-width: map-get(abstracts.$breakpoints, 'small')) {
+@include breakpoint('small') {
   .header {
     display: flex;
     flex-direction: column;
