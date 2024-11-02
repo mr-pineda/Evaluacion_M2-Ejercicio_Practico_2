@@ -411,21 +411,21 @@ body {
   padding: 1rem 3rem;
 }
 
-.footer__item {
+.footer__section {
   flex: 1;
   color: white;
 }
-.footer__item a {
+.footer__section a {
   color: white;
 }
 
-.footer__item__title {
+.footer__section__title {
   margin: 0;
   padding: 0;
   font-size: 1.5rem;
 }
 
-.footer__item__details {
+.footer__section__details {
   margin: 0.5rem 0 0 1rem;
   padding: 0;
 }
@@ -434,15 +434,16 @@ body {
   .footer {
     flex-direction: column;
     padding: 1rem 1rem;
+    padding-bottom: 0;
   }
-  .footer__item {
+  .footer__section {
     font-size: 1rem;
     margin-bottom: 1rem;
   }
-  .footer__item__title {
+  .footer__section__title {
     font-size: 1.2rem;
   }
-  .footer__item__details {
+  .footer__section__details {
     margin: 0 0 0 1rem;
   }
 }
