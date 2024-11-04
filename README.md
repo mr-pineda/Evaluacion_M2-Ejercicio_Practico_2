@@ -37,7 +37,7 @@ Propuesta de página web para el **"Hospital Top Top Top"**. Esta consta de 3 p�
 
 ## TO-DO (Rúbrica)
 
-- [ ] **Organización de Estilos con SASS y Modularización:** Los estilos están correctamente modularizados con SASS, utilizando archivos parciales de acuerdo al patrón 7-1. Se aplica BEM de forma consistente en la nomenclatura de clases CSS.
-- [ ] **Responsividad con Media Queries:** El sitio web escompletamente responsivo, con al menos tres puntos de ruptura implementados correctamente. El diseño se adapta de manera fluida a todos los dispositivos.
-- [ ] **Aplicación del Modelo de Cajas y Posicionamiento de Elementos:** El modelo de cajas está bien aplicado y el posicionamiento de los elementos es coherente, utilizando propiedades como relativo, absoluto y flotante de manera correcta.
-- [ ] **Implementación de un Layout Adaptativo:** El layout es completamente adaptativo, fluido y ajusta correctament e todos los elementos a distintos tamaños de pantalla.
+- [x] **Organización de Estilos con SASS y Modularización:** Los estilos están correctamente modularizados con SASS, utilizando archivos parciales de acuerdo al patrón 7-1. Se aplica BEM de forma consistente en la nomenclatura de clases CSS.
+- [x] **Responsividad con Media Queries:** El sitio web escompletamente responsivo, con al menos tres puntos de ruptura implementados correctamente. El diseño se adapta de manera fluida a todos los dispositivos.
+- [x] **Aplicación del Modelo de Cajas y Posicionamiento de Elementos:** El modelo de cajas está bien aplicado y el posicionamiento de los elementos es coherente, utilizando propiedades como relativo, absoluto y flotante de manera correcta.
+- [x] **Implementación de un Layout Adaptativo:** El layout es completamente adaptativo, fluido y ajusta correctament e todos los elementos a distintos tamaños de pantalla.
