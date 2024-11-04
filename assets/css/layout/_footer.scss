@@ -25,6 +25,20 @@
   padding: 0;
 }
 
+@include breakpoint('medium') {
+  .footer__section {
+    font-size: 1rem;
+    text-align: center;
+  }
+  .footer__section__title {
+    font-size: 1.2rem;
+    margin-bottom: 0.6rem;
+  }
+  .footer__section__details {
+    margin: 0;
+  }
+}
+
 @include breakpoint('small') {
   .footer {
     flex-direction: column;
