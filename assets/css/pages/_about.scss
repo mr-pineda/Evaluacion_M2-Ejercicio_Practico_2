@@ -15,6 +15,9 @@
 .doctor__info {
   flex: 2;
 }
+.doctor__job {
+  font-style: italic;
+}
 .doctor__img {
   flex: 1;
   margin-right: 5rem;
@@ -38,11 +41,11 @@
     margin: 0;
   }
   .doctor__name {
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin: 0;
   }
   .doctor__job {
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin: 0;
   }
   .doctor__img {
@@ -60,36 +63,18 @@
   .team__section {
     padding: 2rem 0;
   }
-  .team__title {
-    font-size: 3rem;
-  }
   .doctor {
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem;
-    margin-bottom: 1rem;
-  }
-
-  .doctor__info {
-    text-align: center;
-    margin: 0;
   }
   .doctor__name {
     font-size: 2rem;
-    margin: 0;
   }
   .doctor__job {
     font-size: 1.5rem;
-    margin: 0;
   }
   .doctor__img {
+    margin: 0 0 1.5rem 0;
     margin: 0;
     width: 60%;
-    margin-bottom: 1.5rem;
-  }
-  .doctor__profile {
-    margin: 1.5rem 0 0 0;
-    text-align: justify;
   }
 }
